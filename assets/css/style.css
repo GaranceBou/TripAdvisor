@@ -8,7 +8,7 @@ body {
   margin: 10px auto;
 }
 
-/* HEADER */
+/* ------------------HEADER -----------------*/
 
 .logo {
   width: 190px;
@@ -54,7 +54,7 @@ header {
   cursor: pointer;
 }
 
-/* TITRE */
+/* ------------------ TITRE --------------------*/
 
 h1 {
   font-family: TS-Med, sans-serif;
@@ -78,7 +78,7 @@ main h1 span {
   color: rgba(0, 0, 0, 0.717);
 }
 
-/*NAV*/
+/*------------------------- MENU-----------------------------*/
 
 .menu {
   margin-top: 38px;
@@ -109,7 +109,7 @@ main h1 span {
   cursor: pointer;
 }
 
-/* IMG */
+/* -------------------------IMG -----------------------*/
 
 .photos {
   display: flex;
@@ -142,7 +142,7 @@ main h1 span {
   opacity: 0.8;
 }
 
-/* suite */
+/* ---------------------------CITIES------------------- */
 
 .way {
   display: flex;
@@ -167,7 +167,8 @@ main h1 span {
   line-height: 14px;
   font-weight: lighter;
 }
-/*section*/
+
+/*-----------------------------COLUMNS-----------------------------*/
 
 .columns {
   margin-top: 40px;
