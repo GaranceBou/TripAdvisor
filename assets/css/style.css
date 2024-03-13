@@ -171,6 +171,10 @@ main h1 span {
   font-weight: lighter;
 }
 
+.fa-caret-down:hover {
+  cursor: pointer;
+}
+
 /*-----------------------------COLUMNS-----------------------------*/
 
 .columns {
