@@ -27,12 +27,12 @@ header {
   font-weight: bold;
 }
 
-.entete > p {
+.entete > a {
   line-height: 40px;
   padding: 0 10px;
 }
 
-.entete > p:hover {
+.entete > a:hover {
   background-color: #d8d2d2;
   cursor: pointer;
   border-radius: 20px;
@@ -157,7 +157,7 @@ main h1 span {
   gap: 10px;
 }
 
-.countries p:hover {
+.countries a:hover {
   cursor: pointer;
   text-decoration: underline;
 }
