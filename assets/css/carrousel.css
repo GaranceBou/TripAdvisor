@@ -1,7 +1,6 @@
-h4 {
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 29px;
+.bloc {
+  margin-top: 30px;
+  display: flex;
 }
 
 .theme {
@@ -30,6 +29,12 @@ h4 {
   cursor: pointer;
   color: black;
   opacity: 0.9;
+}
+
+h4 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
 }
 
 .gold {
@@ -77,27 +82,12 @@ h4 {
   flex-shrink: 0;
 }
 
-/*coeur*/
-.act > i {
-  background-color: white;
-  padding: 8px;
-  border-radius: 20px;
-  position: absolute;
-  top: 4px;
-  right: 4px;
-}
-
 .act > p:not(.food) {
   color: black;
   margin-top: 5px;
   font-size: 18px;
   line-height: 22px;
   font-weight: bold;
-}
-
-.bloc {
-  margin-top: 30px;
-  display: flex;
 }
 
 .carrousel {
@@ -114,6 +104,16 @@ h4 {
 .food {
   font-size: 13px;
   color: rgb(66, 64, 64);
+}
+
+/*coeur*/
+.act > i {
+  background-color: white;
+  padding: 8px;
+  border-radius: 20px;
+  position: absolute;
+  top: 4px;
+  right: 4px;
 }
 
 a {

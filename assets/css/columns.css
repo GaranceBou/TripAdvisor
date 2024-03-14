@@ -1,9 +1,8 @@
 .columns {
   margin-top: 40px;
+  margin-bottom: 90px;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 90px;
-  gap: 150px;
 }
 
 h2 {
@@ -12,16 +11,6 @@ h2 {
   line-height: 38px;
   font-weight: bolder;
   margin-bottom: 35px;
-}
-
-.column2 {
-  width: 430px;
-  height: 470px;
-  background-color: #ff5d5d;
-  border-radius: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
 }
 
 h3 {
@@ -36,16 +25,29 @@ h3 {
   font-size: 20px;
 }
 
-.map {
-  width: 430px;
-  height: 180px;
-  border-bottom-left-radius: 19px;
-  border-bottom-right-radius: 19px;
-  object-fit: cover;
+.column1 {
+  width: 60%;
+  padding-right: 150px;
+}
+
+.column2 {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  background-color: #ff5d5d;
+  border-radius: 20px;
+  overflow: hidden;
 }
 
 .beforemap {
-  padding: 30px;
+  padding: 20px;
+}
+
+.map {
+  height: 190px;
+  border-bottom-left-radius: 19px;
+  border-bottom-right-radius: 19px;
+  object-fit: cover;
 }
 
 .create {

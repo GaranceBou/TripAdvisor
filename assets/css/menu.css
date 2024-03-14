@@ -3,25 +3,24 @@
   margin-bottom: 25px;
 }
 
-.menu ul {
+.menu {
   display: flex;
-  gap: 12px;
-  flex: 1;
+  gap: 10px;
 }
 
-.menu ul > li {
+.menu > div {
+  padding: 12px;
   border: solid black 1px;
-  flex: 1;
   border-radius: 15px;
+  flex: 1;
   display: flex;
   justify-content: space-between;
-  padding: 12px;
-  font-weight: bold;
+  font-family: TS-Med;
   font-size: 15px;
   line-height: 20px;
 }
 
-.menu ul > li:hover {
+.menu div:hover {
   background-color: black;
   color: white;
   cursor: pointer;
