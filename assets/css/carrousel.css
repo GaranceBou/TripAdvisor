@@ -1,0 +1,125 @@
+h4 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.theme {
+  flex: 1;
+  padding-right: 30px;
+}
+
+.theme p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 22px;
+  margin-top: 28px;
+  margin-bottom: 15px;
+}
+
+.theme a {
+  background-color: transparent;
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: black;
+}
+
+.theme a:hover {
+  cursor: pointer;
+  color: black;
+  opacity: 0.9;
+}
+
+.gold {
+  width: 35px;
+  height: 40px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+  position: absolute;
+  top: 145px;
+  left: 6px;
+}
+
+.carrousel img:not(.gold) {
+  width: 100%;
+  aspect-ratio: 27/20;
+  border-radius: 10px;
+}
+
+.grade {
+  display: flex;
+  padding: 7px 0;
+}
+
+.grade p {
+  font-size: 12px;
+  color: rgb(81, 78, 78);
+  margin-left: 10px;
+}
+
+.points {
+  display: flex;
+  justify-content: space-between;
+  gap: 2px;
+}
+
+.points i {
+  font-size: 12px;
+}
+
+.act {
+  position: relative;
+  width: calc((100% - 30px) / 3);
+  flex-shrink: 0;
+}
+
+/*coeur*/
+.act > i {
+  background-color: white;
+  padding: 8px;
+  border-radius: 20px;
+  position: absolute;
+  top: 4px;
+  right: 4px;
+}
+
+.act > p:not(.food) {
+  color: black;
+  margin-top: 5px;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: bold;
+}
+
+.bloc {
+  margin-top: 30px;
+  display: flex;
+}
+
+.carrousel {
+  display: flex;
+  overflow: hidden;
+  overflow-x: scroll;
+  gap: 15px;
+  flex: 3;
+}
+
+.carrousel::-webkit-scrollbar {
+  display: none;
+}
+.food {
+  font-size: 13px;
+  color: rgb(66, 64, 64);
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.8;
+}

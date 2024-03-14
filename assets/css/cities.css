@@ -1,0 +1,27 @@
+.way {
+  display: flex;
+  justify-content: space-between;
+}
+
+.countries {
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: lighter;
+  display: flex;
+  gap: 10px;
+}
+
+.countries a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.way .visit {
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: lighter;
+}
+
+.fa-caret-down:hover {
+  cursor: pointer;
+}

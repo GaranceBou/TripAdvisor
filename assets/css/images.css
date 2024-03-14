@@ -1,0 +1,33 @@
+.photos {
+  height: 430px;
+  margin-bottom: 20px;
+  display: flex;
+  gap: 2px;
+}
+
+.photos img {
+  object-fit: cover;
+}
+
+.leftbloc {
+  height: 100%;
+  flex: 1;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.rightbloc {
+  width: 480px;
+  height: 100%;
+  gap: 2px;
+}
+
+.rightbloc img {
+  height: calc(50% - 2px);
+  width: 100%;
+}
+
+.photos img:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
