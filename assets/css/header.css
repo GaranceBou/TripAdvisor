@@ -12,6 +12,7 @@ header {
   background-color: white;
   padding-top: 10px;
   padding-bottom: 10px;
+  z-index: 1;
 }
 
 .entete {
