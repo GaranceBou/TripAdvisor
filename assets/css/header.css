@@ -10,6 +10,8 @@ header {
   position: sticky;
   top: 0px;
   background-color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .entete {
@@ -20,14 +22,12 @@ header {
 
 .entete > a {
   line-height: 40px;
-  padding: 0 10px;
 }
 
 .entete > a:hover {
   background-color: #d8d2d2;
   cursor: pointer;
   border-radius: 20px;
-  padding: 0 10px;
 }
 
 .connect {
