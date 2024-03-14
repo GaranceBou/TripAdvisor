@@ -17,19 +17,18 @@ body {
   margin: 0 auto;
 }
 
-.container {
-  width: 1135px;
+body {
+  height: 100%;
+  width: 1024px;
   margin: 0 auto;
 }
 
 /* Media queries */
 
-@media (max-width: 1184px) {
-  .menu {
-    display: flex;
-    gap: 12px;
-    flex-wrap: wrap;
-    align-content: center;
-    align-items: center;
+@media (max-width: 1024px) {
+  body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
   }
 }
