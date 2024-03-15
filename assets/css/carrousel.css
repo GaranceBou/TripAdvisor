@@ -52,7 +52,7 @@ h4 {
 .carrousel img:not(.gold) {
   width: 100%;
   aspect-ratio: 27/20;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .grade {

@@ -163,4 +163,13 @@ body {
     height: 188px;
     flex: none;
   }
+
+  .bloc {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .act {
+    width: 300px;
+  }
 }
