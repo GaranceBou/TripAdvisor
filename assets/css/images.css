@@ -5,10 +5,6 @@
   gap: 2px;
 }
 
-.photos img {
-  object-fit: cover;
-}
-
 .leftbloc {
   height: 100%;
   flex: 1;
@@ -19,6 +15,7 @@
   height: 100%;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
+  object-fit: cover;
 }
 
 .rightbloc {
@@ -34,6 +31,7 @@
 .rightbloc img {
   width: 100%;
   height: 100%;
+  object-fit: cover;
 }
 
 .rightbloc div:first-child {

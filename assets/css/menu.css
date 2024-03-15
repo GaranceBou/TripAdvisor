@@ -1,3 +1,7 @@
+main {
+  padding-top: 50px;
+}
+
 .menu {
   margin-top: 38px;
   margin-bottom: 25px;
@@ -8,17 +12,20 @@
   gap: 10px;
 }
 
-/*à modifier*/
 .menu > div {
+  font-family: TS-Med;
   padding: 12px;
-  border: solid black 1px;
-  border-radius: 15px;
-  flex: 1;
+  border: 1px solid black;
+  border-radius: 12px;
+  width: calc((100% - 50px) / 6);
   display: flex;
   justify-content: space-between;
-  font-family: TS-Med;
   font-size: 15px;
   line-height: 20px;
+}
+.menu > div:nth-child(n + 6):not(:last-child) {
+  /* background-color: #ff5d5d; */
+  display: none;
 }
 
 .menu div:hover {

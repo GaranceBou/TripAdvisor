@@ -1,3 +1,9 @@
+h4 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+}
+
 .bloc {
   margin-top: 30px;
   display: flex;
@@ -5,7 +11,7 @@
 
 .theme {
   flex: 1;
-  padding-right: 30px;
+  padding-right: 10px;
 }
 
 .theme p {
@@ -31,10 +37,16 @@
   opacity: 0.9;
 }
 
-h4 {
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 29px;
+.carrousel {
+  display: flex;
+  overflow: hidden;
+  overflow-x: scroll;
+  gap: 15px;
+  flex: 3;
+}
+
+.carrousel::-webkit-scrollbar {
+  display: none;
 }
 
 .carrousel img:not(.gold) {
@@ -64,8 +76,11 @@ h4 {
   font-size: 12px;
 }
 
-.act {
+.relativediv {
   position: relative;
+}
+
+.act {
   width: calc((100% - 30px) / 3);
   flex-shrink: 0;
 }
@@ -78,30 +93,19 @@ h4 {
   font-weight: bold;
 }
 
-.carrousel {
-  display: flex;
-  overflow: hidden;
-  overflow-x: scroll;
-  gap: 15px;
-  flex: 3;
-}
-
-.carrousel::-webkit-scrollbar {
-  display: none;
-}
 .food {
   font-size: 13px;
   color: rgb(66, 64, 64);
 }
 
 /*coeur*/
-.act > i {
+.relativediv > i {
   background-color: white;
-  padding: 8px;
   border-radius: 20px;
   position: absolute;
-  top: 4px;
-  right: 4px;
+  top: 10px;
+  right: 10px;
+  padding: 10px;
 }
 
 .gold {
@@ -112,10 +116,8 @@ h4 {
   border-top-right-radius: 25px;
   border-top-left-radius: 25px;
   position: absolute;
-  bottom: 80px;
-  left: 4px;
-  /* top: 145px;
-  left: 6px; */
+  bottom: 10px;
+  left: 10px;
 }
 
 a {

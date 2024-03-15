@@ -1,57 +1,52 @@
+.connect {
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  border-radius: 20px;
+  padding: 12px 15px;
+  font-weight: bold;
+}
+
+.connect:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
 header {
   height: 60px;
   position: sticky;
   top: 0px;
+  background-color: white;
   z-index: 1;
 }
 
 header > div {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   height: 100%;
-  margin-bottom: 32px;
-  background-color: white;
-  padding: 10px 0;
+  align-items: center;
+  margin-bottom: 40px;
 }
 
 .logo {
   height: 40px;
 }
 
-.entete {
-  display: flex;
-  gap: 25px;
+.entete a {
+  padding: 10px;
   font-weight: bold;
-}
-
-.entete > a {
-  line-height: 40px;
-  padding: 0 6px;
+  border-radius: 18px;
 }
 
 .entete > a:hover {
   background-color: #d8d2d2;
   cursor: pointer;
-  border-radius: 20px;
-  padding: 0 6px;
-}
-
-.connect {
-  background-color: black;
-  color: white;
-  font-family: TS-Reg, sans-serif;
-  font-weight: bold;
-  font-size: 15px;
-  width: 150px;
-  border-radius: 30px;
-}
-
-.connect:hover {
-  cursor: pointer;
-  opacity: 0.7;
 }
 
 .fa-bars {
+  display: none;
+}
+
+.entete .last-span-header a:first-child {
   display: none;
 }
