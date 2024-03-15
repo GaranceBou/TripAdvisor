@@ -18,22 +18,149 @@ body {
 .container {
   max-width: 1175px;
   margin: 0 auto;
-  padding: 15px;
+  padding: 20px;
 }
 
-@media (max-width: 1100px) {
-  body,
-  header,
-  main,
-  footer {
-    height: 100%;
-    width: 100%;
-    margin: 0;
+/* ---- RESPONSIVE ---- */
+
+/* 1184px */
+
+@media (max-width: 1184px) {
+  .menu {
+    flex-wrap: wrap;
   }
+
+  .menu > div {
+    width: calc((100% - 30px) / 4);
+  }
+
+  .menu > div:nth-child(n + 6):not(:last-child) {
+    display: inherit;
+  }
+
   .photos {
     height: 370px;
-    margin-bottom: 20px;
+  }
+
+  .rightbloc {
+    width: 400px;
+  }
+}
+
+/* 1024px */
+
+@media (max-width: 1024px) {
+  .entete > a > span,
+  .last-span-header span {
+    display: none;
+  }
+
+  .photos {
+    height: 275px;
+  }
+
+  .rightbloc {
+    width: 33.33%;
+  }
+
+  .columns {
+    display: block;
+  }
+
+  .column1 {
+    width: auto;
+    margin-bottom: 100px;
+    padding-right: 0px;
+  }
+
+  .column2 {
+    width: auto;
+    flex-direction: row;
+    align-items: stretch;
+  }
+
+  .mapimg,
+  .beforemap {
+    flex: 1;
+    height: auto;
+  }
+}
+
+/* 768px */
+
+@media (max-width: 768px) {
+  .menuburger {
+    display: inherit;
+  }
+
+  .menuburger:hover {
+    cursor: pointer;
+    opacity: 0.7;
+  }
+
+  .logo {
+    padding-left: 20px;
+    height: 150%;
+  }
+
+  h1 {
+    font-size: 35px;
+  }
+
+  .way {
+    display: none;
+  }
+
+  .entete .last-span-header a:first-child {
+    display: inherit;
+  }
+
+  .entete > a,
+  .entete button {
+    display: none;
+  }
+
+  .menu {
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+  }
+  .menu::-webkit-scrollbar {
+    display: none;
+  }
+
+  .menu > div {
+    flex-shrink: 0;
+    width: auto;
     display: flex;
-    gap: 2px;
+    gap: 14px;
+  }
+
+  .rightbloc {
+    display: none;
+  }
+
+  .leftbloc img {
+    border-radius: 0;
+  }
+
+  .photos {
+    margin: 20px -20px;
+  }
+
+  .column2 {
+    flex-direction: column;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  .desc {
+    font-size: 16px;
+  }
+
+  .mapimg {
+    height: 188px;
+    flex: none;
   }
 }

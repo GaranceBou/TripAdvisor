@@ -30,7 +30,6 @@ header > div {
 
 .logo {
   height: 40px;
-  padding-right: 10px;
 }
 
 .entete a {
@@ -53,5 +52,9 @@ header > div {
 }
 
 .entete .last-span-header a:first-child {
+  display: none;
+}
+
+.menuburger {
   display: none;
 }
