@@ -37,18 +37,6 @@ h4 {
   line-height: 29px;
 }
 
-.gold {
-  width: 35px;
-  height: 40px;
-  border-bottom-left-radius: 8px;
-  border-bottom-right-radius: 8px;
-  border-top-right-radius: 25px;
-  border-top-left-radius: 25px;
-  position: absolute;
-  top: 145px;
-  left: 6px;
-}
-
 .carrousel img:not(.gold) {
   width: 100%;
   aspect-ratio: 27/20;
@@ -114,6 +102,20 @@ h4 {
   position: absolute;
   top: 4px;
   right: 4px;
+}
+
+.gold {
+  width: 32px;
+  height: 35px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+  position: absolute;
+  bottom: 80px;
+  left: 4px;
+  /* top: 145px;
+  left: 6px; */
 }
 
 a {

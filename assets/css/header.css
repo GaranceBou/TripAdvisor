@@ -51,3 +51,7 @@ header > div {
   cursor: pointer;
   opacity: 0.7;
 }
+
+.fa-bars {
+  display: none;
+}
