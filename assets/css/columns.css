@@ -46,8 +46,7 @@ h3 {
 
 .map {
   height: 190px;
-  border-bottom-left-radius: 19px;
-  border-bottom-right-radius: 19px;
+
   object-fit: cover;
 }
 
