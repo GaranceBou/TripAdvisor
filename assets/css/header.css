@@ -30,6 +30,7 @@ header > div {
 
 .logo {
   height: 40px;
+  padding-right: 10px;
 }
 
 .entete a {
@@ -40,6 +41,10 @@ header > div {
 
 .entete > a:hover {
   background-color: #d8d2d2;
+  cursor: pointer;
+}
+
+.last-span-header:hover {
   cursor: pointer;
 }
 
